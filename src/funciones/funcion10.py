@@ -5,9 +5,9 @@ def contar_puntos(jugador):
             contador = contador + (valor*3)
         else:
             if clave == 'assists' :
-                contador = contador + 1 
+                contador = contador + (valor*1) 
             else:
-                contador = contador + 0 if clave else -1
+                contador = contador + -1 if clave else 0
     return contador
 
 def sumar_kills (jugador,kills):

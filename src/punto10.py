@@ -58,8 +58,6 @@ for i in range(5):
         mvp_nombre = clave
   funcion10.sumar_MVPs(ranking_final[mvp_nombre])
   for clave,valor in rondas_stats.items() :
-     nombre = clave
-     punto = valor  
      print(f"{clave} : {valor} " + ("mvp" if clave == mvp_nombre else " "))
 ranking_ordenado = funcion10.ordenar_diccionarios(ranking_final)
 print("------------------ranking final---------------------")
